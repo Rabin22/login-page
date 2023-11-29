@@ -1,0 +1,110 @@
+
+body{
+	background-color: lightgray;
+}
+.row {
+  display: flex;
+}
+.column {
+  float: left;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#login{
+	background-color: white;
+	color: green;
+	border: 2px solid green;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	text-align: center;
+	width: 50%;
+	margin-top: 100px ;
+	margin-left: 100px;
+}
+#hr1{
+	color: green;
+	background: green;
+	width: 50px;
+	height: 5px;
+	border-radius: 50px;
+}
+
+.fa {  
+  padding: 5px;  
+  text-align: center;  
+  margin: 5px;  
+  font-size: 30px;  
+  width: 18px; 
+  border: 1px solid green;
+  border-radius: 100%; 
+  background: white;  
+  color: green;
+}   
+#h41{
+	color: lightslategray;
+} 
+	
+/* Set a style for all buttons */
+button {
+  background-color: green;
+  color: white;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 50px;
+}	
+button:hover {
+  opacity: 0.8;
+} 	 
+/* The "Forgot password" text */
+.fp {
+	  padding-left: 80px;
+}
+.fp2 {
+	  padding-right: 30px;
+	  padding-left: 30px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  margin: 8px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid green;
+  box-sizing: border-box;
+}
+#signin{
+	background-color: green;
+	color: white;
+	border: 2px solid green;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	padding-top: 80px;
+}
+#hr2{
+	margin-top: 0px;
+	color: white;
+	background-color: white;
+	width: 50px;
+	height: 3px;
+	border-radius: 50px;
+}
+#h42{
+	color: whitesmoke;
+} 
